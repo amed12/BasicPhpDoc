@@ -22,6 +22,7 @@ Mungkin banyak orang yang bertanya menjadi seorang developer hebat harus dimulai
 1. Niat
 2. Kemauan
 3. Kerja Keras
+
 3 hal diatas mutlak wajib bagi saya pribadi ketika memulai memutuskan menjadi software engineer khususnya di Backend, So let's try to write some code dude !!
 
 ## Environment
