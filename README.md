@@ -1,9 +1,9 @@
-﻿# Clean Code PHP
+﻿# Basic of PHP
 
 ## Table of Contents
 
   1. [Introduction](#introduction)
-  2. [Variables](#variables)
+  2. [Setting up the Environment](#environment)
      * [Use meaningful and pronounceable variable names](#use-meaningful-and-pronounceable-variable-names)
      * [Use the same vocabulary for the same type of variable](#use-the-same-vocabulary-for-the-same-type-of-variable)
      * [Use searchable names (part 1)](#use-searchable-names-part-1)
@@ -18,20 +18,13 @@
 
 ## Introduction
 
-Software engineering principles, from Robert C. Martin's book
-[*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-adapted for PHP. This is not a style guide. It's a guide to producing
-readable, reusable, and refactorable software in PHP.
+Mungkin banyak orang yang bertanya menjadi seorang developer hebat harus dimulai dari mana?
+1. Niat
+2. Kemauan
+3. Kerja Keras
+3 hal diatas mutlak wajib bagi saya pribadi ketika memulai memutuskan menjadi software engineer khususnya di Backend, So let's try to write some code dude !!
 
-Not every principle herein has to be strictly followed, and even fewer will be universally 
-agreed upon. These are guidelines and nothing more, but they are ones codified over many 
-years of collective experience by the authors of *Clean Code*.
-
-Inspired from [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript).
-
-Although many developers still use PHP 5, most of the examples in this article only work with PHP 7.1+.
-
-## Variables
+## Environment
 
 ### Use meaningful and pronounceable variable names
 
