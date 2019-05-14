@@ -69,6 +69,33 @@ if(3 > 4 ){
 }
 
 ```
+- Switch Case
+
+Struktur kontrol lainnya yaitu switch case , dengan switch case kita bisa mengontrol keadaan yang kita inginkan layaknya soal pilihan ganda pada ujian. Kondisi akan berjalan pada keadaan yang sesuai dengan case yang sesuai dengan yang kita dapatkan.
+```php
+$judulFilm = 'Titanic';
+
+switch ($judulFilm) {
+  case 'Harry Potter':
+        echo "Tidak sesuai keadaan";
+        break;
+  case 'Titanic':
+        echo "Sesuai keadaan   ";
+        break;
+  default:
+        echo "Kondisi lain";
+        break;
+}
+
+```
+- Perulangan
+
+Dalam suatu kasus kita perlu cek kondisi dari baris kode kita dalam beberapa kali waktu dalam satu kali eksekusi. Disinilah perulangan diperlukan , ada beberapa metode dalam perulangan yaitu While, Do...While, For, Foreach.
+
+    + While
+
+    
+
 **[⬆ back to top](#table-of-contents)**
 
 ## CleanCode
