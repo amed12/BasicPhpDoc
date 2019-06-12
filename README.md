@@ -92,10 +92,44 @@ switch ($judulFilm) {
 
 Dalam suatu kasus kita perlu cek kondisi dari baris kode kita dalam beberapa kali waktu dalam satu kali eksekusi. Disinilah perulangan diperlukan , ada beberapa metode dalam perulangan yaitu While, Do...While, For, Foreach.
 
-    + While
+  - While
+  Perulangan termudah menggunakan perulangan While. Perulangan While hanya mengeksekusi beberapa code sampai code tersebut selesai/false di eksekusi.
+  ```php
+  while ($i < 5) {
+    echo $i . "<br>";
+    $i++; 
+  }
+  ```
+  - Do While
+  Perulangan ini hampir mirip dengan while , letak perbedaannya adalah dari evaluasinya. While mengevaluasi beberapa code kemudian melakukan perulangan sampai kondisi false sedangkan do while melakukan perulangan kemudian dievaluasi setidaknya ketika ada kondisi yang tidak sesuai dengan kondisi yang diinginkan , baris code pernah di eksekusi sekali walaupun false. 
+  
+  ```php
+  do {
+    echo $i . " yo";
+    $i++;
+  } while ($i < 0);
 
-    
+  ```
+  - For
+  Diantara perulangan lainnya , for merupakan perulangan yang paling kompleks. For memiliki 4 perulangan, pertama merupakan inisasi , kemudian dilanjutkan evaluasi kondisi exit , jika kondisi tadi benar maka akan lanjut dengan expresi iterasi dan diakhiri dengan evaluasi kondisi exit lagi sampai false.
+  
+  ```php
+  $warga = array("Faisal","Mahendra","chelly");
+  echo '<br>';
 
+  for ($i = 0; $i < count($warga); $i++) {
+    echo $warga[$i] . "lo ";
+  }
+
+  ``` 
+  - Foreach
+  Perulangan ini akan mengeksekusi array dan mengiterasinya sampai array posisi terakhir walapun tidak tau key/posisi dari array tersebut.
+  ```php
+  foreach ($warga as $key => $warganet) {
+    echo $key . "->" . $warganet . "<br>" ;
+  }  
+  ```
+  
 **[⬆ back to top](#table-of-contents)**
 
 ## CleanCode
