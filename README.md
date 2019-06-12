@@ -53,7 +53,7 @@ function createMicrobrewery(string $breweryName = 'Hipster Brew Co.'): void
 
 Sebuah program akan mengeksekusi setiap baris kode yang ada di program kita. Namun, Jika ada beberapa array (misal) yang berisi data tapi data dalam array tersebut tidak seperti yang diharapkan. Disinilah kita perlu mengontrol struktur dari setiap baris kode kita. Mengkontrol struktur ibarat lampu lalu lintas, baris kode kita akan dikontrol dengan flow yang kita inginkan. Ada 2 kategori dalam Struktur Control yaitu Perulangan dan Pengkondisian(Conditionals). Jika kita pengen mengetahui fungsionalitas dari baris kode kita hanya untuk beberapa tertentu pakai pengkondisian namun jika perlu dieksekusi berkali2 maka kita perlu menggunakan Perulangan.
 
-- Pengkondisian
+- >Pengkondisian<
 
 Pada umumnya pengkondisian mengeksekusi tipe boolean, yang mana jika sesuatu bernilai true maka akan mengeksekusi beberapa baris kode yang kita inginkan.
 
@@ -88,7 +88,7 @@ switch ($judulFilm) {
 }
 
 ```
-- Perulangan
+- >Perulangan<
 
 Dalam suatu kasus kita perlu cek kondisi dari baris kode kita dalam beberapa kali waktu dalam satu kali eksekusi. Disinilah perulangan diperlukan , ada beberapa metode dalam perulangan yaitu While, Do...While, For, Foreach.
 
@@ -129,7 +129,7 @@ Dalam suatu kasus kita perlu cek kondisi dari baris kode kita dalam beberapa kal
     echo $key . "->" . $warganet . "<br>" ;
   }  
   ```
-  
+
 **[⬆ back to top](#table-of-contents)**
 
 ## CleanCode
